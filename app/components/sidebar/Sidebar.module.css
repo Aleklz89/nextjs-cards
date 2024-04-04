@@ -1,0 +1,66 @@
+/* В вашем файле стилей, например Sidebar.module.css */
+.sidebar {
+    width: 250px; /* Ширина боковой панели */
+    background: #FFF; /* Фон боковой панели */
+    /* Добавьте тень или другие стили, если нужно */
+    margin-top: 40px;
+    
+  }
+  
+  
+  .navList {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    
+    
+  }
+  
+  .navItem {
+    padding: 10px; /* Добавьте отступы для элементов списка */
+    border-radius: 10px; /* Скругляем углы */
+    height: 60px;
+    font-weight: 700px;
+    padding-top: 18px;
+    cursor: pointer;
+  }
+
+  
+  .navItem a {
+    text-decoration: none; /* Убираем подчеркивание текста ссылок */
+    color: #333; /* Цвет текста ссылок */
+    display: flex; /* Выстраиваем иконки и текст в ряд */
+    align-items: center; /* Центрируем элементы по вертикали */
+    font-weight: 600;
+    margin-top: -3px;
+  }
+  
+  .icon {
+    margin-right: 10px; /* Отступ между иконкой и текстом */
+    /* Добавьте стили для иконок */
+  }
+  
+  .navItem:hover {
+    background: #d7fadc; /* Фон активного элемента или при наведении */
+  }
+
+  .active {
+    padding: 10px; /* Добавьте отступы для элементов списка */
+    border-radius: 10px; /* Скругляем углы */
+    height: 60px;
+    font-weight: 700px;
+    padding-top: 18px;
+    cursor: pointer;
+    background: #d7fadc;
+  }
+
+  .active a {
+    text-decoration: none; /* Убираем подчеркивание текста ссылок */
+    color: #333; /* Цвет текста ссылок */
+    display: flex; /* Выстраиваем иконки и текст в ряд */
+    align-items: center; /* Центрируем элементы по вертикали */
+    font-weight: 600;
+    margin-top: -3px;
+  }
+  
+  /* Добавьте медиа-запросы для адаптивности, если нужно */
+  

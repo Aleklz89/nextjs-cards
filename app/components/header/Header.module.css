@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 65px;
+
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.navLink {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 1px;
+    text-decoration: none;
+    margin-right: 840px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.navLink:hover,
+.navLink:active {
+    background-color: #399D6B;
+    color: #ffffff;
+}
+
+.navLinkUnderline {
+    display: none;
+}
+
+.navLink .navLinkUnderline,
+.navLink:active .navLinkUnderline {
+    display: block;
+    height: 2px;
+    background-color: #399D6B;
+    transition: width 0.3s;
+}
+
+.controls {
+    display: flex;
+}
+
+.logoText {
+    margin-left: 11px;
+}
+
+.logoTextCard {
+    font-weight: 200;
+    font-size: 20px; 
+  }
+  
+  .logoTextShop {
+    font-weight: 600; 
+    font-size: 20px; 
+  }
+
+  .controlGroup {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .controls {
+    margin-right: 10px; 
+    margin-left: 10px;
+    
+  }
+  
+  .controls:last-child {
+    margin-right: 0; 
+  }
+
+  .divider {
+    height: 27px; 
+    width: 1px;
+    background-color: #CDCDCD;
+    margin: 0 10px; 
+  }
+
+  /* В Header.module.css */
+.navLink {
+    display: inline-block; /* Используйте inline-block для соответствующего позиционирования и размеров */
+    background-color: #ffffff; /* Белый фон для обычного состояния */
+    color: #333333; /* Цвет текста */
+    padding: 8px 16px; /* Отступы вокруг текста, подберите размеры под ваш дизайн */
+    font-size: 16px; /* Размер шрифта, подберите под ваш дизайн */
+    font-weight: 400; /* Начальный вес шрифта */
+    text-transform: uppercase; /* Если требуется текст в верхнем регистре */
+    border-radius: 10px; /* Скругление углов */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход для фона и текста */
+    text-decoration: none; /* Убрать подчеркивание текста */
+    margin-right: 10px; /* Отступ справа, если есть несколько элементов в ряд */
+    cursor: pointer; /* Показывать указатель, подчеркивающий кликабельность */
+  }
+  
+  .navLink:hover {
+    background-color: #399D6B; /* Оранжевый фон при наведении */
+    color: #ffffff; /* Белый цвет текста при наведении */
+    font-weight: 700; /* Делаем текст более жирным при наведении, если это необходимо */
+  }
+  
+  /* Стили для подчеркивания, если оно все еще требуется */
+  .navLinkUnderline {
+    display: none; /* Скрыть, если оно больше не нужно */
+  }
+  
+  /* Добавление стилей при наведении, если подчеркивание по-прежнему требуется */
+  .navLink:hover .navLinkUnderline {
+    display: block;
+    /* Остальные стили для подчеркивания */
+  }
+  
